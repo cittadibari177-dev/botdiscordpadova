@@ -147,4 +147,4 @@ async def purge(interaction: discord.Interaction, quantita: int):
     deleted = await interaction.channel.purge(limit=quantita)
     await interaction.followup.send(f"🗑️ Eliminati {len(deleted)} messaggi.", ephemeral=True)
 
-bot.run("MTU2NTcyOTUxNTcyMzAzNDc3NQ.GaxL8V.aGWTuZ_3OuKvbe9xgOpQQxI1nIw9_LcRBHhlYA")
+bot.run("MTU2NTcyOTUxNTcyMzAzNDc3NQ.GUnNdf.mOVNxzABEXxf8oTcA6YuY8LTewD1Cv7dW3umzg")
